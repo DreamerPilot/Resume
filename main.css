@@ -1,0 +1,52 @@
+body {
+    background: white;
+}
+
+aside {
+    float: left;
+    background: white;
+    width: 28%;
+    padding: 9.0%;
+    height: 100vh;
+    color: #1d628b;
+    border-right:5px solid #9e5428;
+
+
+}
+
+aside img{
+    float:left
+}
+
+aside ul {list-style: none}
+aside ul a {
+    color: #1d628b;
+    display: block;
+    margin-top: 20 px;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #9e5428;
+    text-decoration: none;
+    transform: scale(1.07)
+}
+
+main .features{
+    flout: left;
+    color: black;
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+}
+
+main .features h1 {font-sixe: 50px;}
+main .features p { max-width: 400px; margin: 20px auto}
+
+.alert-warning {
+    float: center;
+    clear: both;
+    width: 400px;
+    margin: 20px 34%;
+    text-align: left;
+}
